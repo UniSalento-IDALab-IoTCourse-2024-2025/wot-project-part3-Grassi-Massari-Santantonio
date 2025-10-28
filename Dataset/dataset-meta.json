@@ -1,0 +1,937 @@
+{
+    "name": "Vibraz",
+    "description": "dovrebbe percepire quanto oscilla",
+    "id": "01jwp79kgwwxmcgfdp076rrpm9",
+    "classes": [
+        "low",
+        "medium",
+        "high",
+        "unlabeled"
+    ],
+    "metadata": {},
+    "data": [
+        {
+            "start_time": "1970-01-01T00:00:00",
+            "end_time": "1970-01-01T00:00:05.531000",
+            "start_time_ts": "0.054633",
+            "end_time_ts": "5.530883",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "bmvnfeqcquey5rok7l77jvthsoixllrjwc2hisya6wj2fee65ica====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_0_bmvnfeqc.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7eftadx39kck38jcwwsd5"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:05.531000",
+            "end_time": "1970-01-01T00:00:27.104000",
+            "start_time_ts": "5.53101",
+            "end_time_ts": "27.103831",
+            "split_index": 0,
+            "class": "low",
+            "file": {
+                "id": "jk2hrtk35f3hdcxt3dqsz7dxgshzoviuqgvrkn7c7mjo3doovxla====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "low/20250601_17_06_11_1_jk2hrtk3.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7egp4pdg2p7cywtee6ekw"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:27.104000",
+            "end_time": "1970-01-01T00:00:28.920000",
+            "start_time_ts": "27.103958",
+            "end_time_ts": "28.91993",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "3h2qesxxi44j3xav4aavgwhbnobld3qkreohjsizhs2vhpnmnwmq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_2_3h2qesxx.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7ehad6ft3gxgk5sg6eqvq"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:28.920000",
+            "end_time": "1970-01-01T00:00:36.691000",
+            "start_time_ts": "28.920057",
+            "end_time_ts": "36.690815",
+            "split_index": 0,
+            "class": "medium",
+            "file": {
+                "id": "vng3l7dx75pvwwkjn7r6decvc7n35pybc76rnarc2iy4slh26bva====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "medium/20250601_17_06_11_3_vng3l7dx.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7ehyejyfvwj7047k13wf1"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:36.691000",
+            "end_time": "1970-01-01T00:00:38.451000",
+            "start_time_ts": "36.690942",
+            "end_time_ts": "38.450933",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "meb4yeanlw45km63kqyt34fhx3k3fdozuouorzaceqgwgcja7mfq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_4_meb4yean.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7ejk4ghw7npnm9rmb9r77"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:38.451000",
+            "end_time": "1970-01-01T00:00:47.041000",
+            "start_time_ts": "38.451059",
+            "end_time_ts": "47.040895",
+            "split_index": 0,
+            "class": "high",
+            "file": {
+                "id": "wu36x62k5mipp3jwpozae26cldwmoepcvruyzjvrqbh4wpzh2ncq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "high/20250601_17_06_11_5_wu36x62k.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7ek7rawkf0zvv9nytags5"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:47.041000",
+            "end_time": "1970-01-01T00:00:49.128000",
+            "start_time_ts": "47.041022",
+            "end_time_ts": "49.127908",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "bi3tcq53psy2rxgxgbf4uqlnq6cdvvmsn6y7oibujv4gv6tpscoa====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_6_bi3tcq53.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7em0vx4myjaj26p96jdy6"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:49.128000",
+            "end_time": "1970-01-01T00:00:57.331000",
+            "start_time_ts": "49.128035",
+            "end_time_ts": "57.330817",
+            "split_index": 0,
+            "class": "low",
+            "file": {
+                "id": "2yodggb7l454n7he7pbmqq3bulxvw6ujfmlrvyv6dak6hqkvq22a====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "low/20250601_17_06_11_7_2yodggb7.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7emncd8e20v9w63dxsvh1"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:57.331000",
+            "end_time": "1970-01-01T00:00:58.819000",
+            "start_time_ts": "57.330944",
+            "end_time_ts": "58.818882",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "tzzl3ciqcf4mz7kd24r3lfnlglm2d6a4stgvjonhodvgmlpwi4ma====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_8_tzzl3ciq.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7ena8xm2gpsqkead5n9eg"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:00:58.819000",
+            "end_time": "1970-01-01T00:01:06.345000",
+            "start_time_ts": "58.819009",
+            "end_time_ts": "66.344826",
+            "split_index": 0,
+            "class": "medium",
+            "file": {
+                "id": "56y53bojkt4by5qufv6mfo6xvp6cbiaehwyin42tzmxke7mr2fha====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "medium/20250601_17_06_11_9_56y53boj.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7enybpea2kwy608szv2e8"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:01:06.345000",
+            "end_time": "1970-01-01T00:01:08.388000",
+            "start_time_ts": "66.344953",
+            "end_time_ts": "68.387892",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "4t34fwmnktpqbevntlexqsdvlesp7sr23bwhxnytb6cyyddzlp3q====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_10_4t34fwmn.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7epjgp9f76smc7bc0v7y1"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:01:08.388000",
+            "end_time": "1970-01-01T00:01:16.210000",
+            "start_time_ts": "68.388019",
+            "end_time_ts": "76.209832",
+            "split_index": 0,
+            "class": "high",
+            "file": {
+                "id": "jvcz37jueu3rtyay7vkggovi56rsp67nckoh2fm7nkmztipsimka====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "high/20250601_17_06_11_11_jvcz37ju.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7eq6qe8kce21pe0445sbz"
+            }
+        },
+        {
+            "start_time": "1970-01-01T00:01:16.210000",
+            "end_time": "1970-01-01T00:01:18.741000",
+            "start_time_ts": "76.209959",
+            "end_time_ts": "78.580428",
+            "split_index": 0,
+            "class": "unlabeled",
+            "file": {
+                "id": "2bs5je3pj7sewzlqwuhoxwvunqzv6josha2o6eb4wclmn4wdmxhq====",
+                "type": "text/csv",
+                "extension": "csv",
+                "relative_path": "unlabeled/20250601_17_06_11_12_2bs5je3p.csv"
+            },
+            "device": {
+                "components": [
+                    {
+                        "name": "lsm6dsv16x_acc",
+                        "type": "acc",
+                        "config": {
+                            "fs": {
+                                "value": 16.0,
+                                "unit": "g",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    },
+                    {
+                        "name": "lsm6dsv16x_gyro",
+                        "type": "gyro",
+                        "config": {
+                            "fs": {
+                                "value": 4000.0,
+                                "unit": "dps",
+                                "scale_factor": null
+                            },
+                            "odr": {
+                                "value": 7680.0,
+                                "unit": "Hz",
+                                "scale_factor": null
+                            }
+                        },
+                        "dimension_count": 3
+                    }
+                ],
+                "metadata": {}
+            },
+            "source": {
+                "blob_id": "nqqdz2vdlck6rya6w6g6t4a3xeeig3ijezvafuektznhjodonzvq====",
+                "metadata": {
+                    "name": "20250601_17_06_11",
+                    "uuid": "1e68a664-147f-42ed-a6b8-edc308800ef4",
+                    "c_type": 2,
+                    "data_ext": ".dat",
+                    "data_fmt": "HSD_2.0.0",
+                    "end_time": "2025-06-01T17:07:52.741Z",
+                    "interface": 1,
+                    "start_time": "2025-06-01T17:06:34.000Z",
+                    "description": "20250601_17_06_11",
+                    "schema_version": "2.0.0"
+                }
+            },
+            "metadata": {
+                "chunk_id": "01jwp7eqv0jf538cy3j605tzx6"
+            }
+        }
+    ]
+}

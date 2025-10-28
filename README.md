@@ -1,13 +1,8 @@
-# Progetto Universitario: Modello AI per la Classificazione della Qualità di Consegna
-
-**Università del Salento - Corso di Internet of Things - A.A. 2024-2025**
-**(Parte del progetto wot-project-part1-Grassi-Massari-Santantonio)**
-
 ## Descrizione
 
 Questa repository contiene il codice sorgente e i file relativi al modello di Intelligenza Artificiale sviluppato per classificare la "qualità" o lo "stato di salute" di una consegna basandosi su dati sensoriali. Il modello utilizza un approccio di **apprendimento supervisionato**, specificamente una **Random Forest**, addestrata su dati etichettati per predire una delle classi: "low", "medium", o "high".
 
-Il modello è progettato per ricevere in input una serie di misure (feature) provenienti da sensori (presumibilmente durante una consegna) e restituire la classe di qualità più probabile.
+Il modello è progettato per ricevere in input una serie di misure (feature) provenienti dai sensori durante una consegna e restituire la classe di qualità più probabile.
 
 ## Tecnologie Utilizzate
 

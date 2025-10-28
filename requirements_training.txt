@@ -1,0 +1,28 @@
+# Requirements per addestramento del modello
+# Installazione: pip install -r requirements_training.txt
+
+# Core ML libraries
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# Model persistence
+joblib>=1.2.0
+
+# Optional: XGBoost per sperimentazione con GPU
+xgboost>=1.7.0
+
+# Optional: Visualization e analysis
+matplotlib>=3.6.0
+seaborn>=0.11.0
+
+# Optional: Progress bars
+tqdm>=4.64.0
+
+# Optional: Jupyter notebook support
+ipython>=8.0.0
+jupyter>=1.0.0
+
+# Optional: Advanced feature engineering
+pytz>=2022.7
